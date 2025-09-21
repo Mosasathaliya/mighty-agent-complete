@@ -1,0 +1,16 @@
+name = "mighty-agent-comprehensive"
+main = "src/index.js"
+compatibility_date = "2024-09-23"
+compatibility_flags = ["nodejs_compat"]
+
+[env.production]
+name = "mighty-agent-comprehensive"
+
+[[env.production.ai]]
+binding = "AI"
+
+[vars]
+ENVIRONMENT = "production"
+VERSION = "2.0.0"
+DEBUG = "false"
+
